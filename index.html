@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>welcome,happy new year</title>
+</head>
+<body>
+<script type = text/javascript>
+  //Use isAndroid,isLinux,isIhone to kown about the useragent
+  var ua = navigator.userAgent;
+  var isAndroid = (/Android/).test(ua);
+  var isLinux = (/Linux/).test(ua);
+  var isIphone = (/iPhone/).test(ua);
+  document.writeln(isAndroid,isLinux,isIphone);
+  //if ua is android,move to the mobile site
+  if (isAndroid == true) {
+      window.location.href="./index/indexWap.html";
+  }
+  //if ua is not andoid but Linux,move to the desktop site
+  else if (isLinux == true) {
+      window.location.href="./index/indexPC.html";
+  }
+  //if ua is IPhone,move to the mobile site
+  else if (isiPhone == true) {
+      window.location.href="./index/indexWap.html"
+  } else {
+      window.location.href="./index/indexPC.html";
+  }
+</script>
+</body>
+</html>

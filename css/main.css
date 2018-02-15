@@ -1,0 +1,88 @@
+
+html,body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#s1{
+    height: 100%;
+    line-height: 100%;
+}
+
+.PageTitle1{
+    size: 100px;
+}
+
+.t2-1{
+    margin-left: -70%;
+}
+
+.t2-2{
+    margin-right: -70%;
+}
+
+.events-1{
+    text-align: left;
+}
+
+.events-2{
+    margin-right: 20%;
+    text-align: right;
+}
+
+li{
+    line-height: 250%;
+}
+
+.pics-1{
+    position: absolute;
+}
+
+.pics-2{
+    position: absolute;
+}
+
+.pics-3{
+    position: absolute;
+}
+
+.pics-4{
+    position: absolute;
+}
+
+.pics-1{
+    margin-left: 50%;
+    margin-top: -25%;
+}
+
+.pics-2{
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+.pics-3{
+    margin-left: -72%;
+    margin-top: -15%;
+}
+
+.pics-4{
+    margin-left: -72%;
+    margin-top: 0;
+}
+
+#event3-1{
+    margin-top: -15%;
+}
+
+#event3-2{
+    margin-top: 0;
+}
+
+#event5-1{
+    margin-top: -15%;
+}
+
+#event5-2{
+    margin-top: 0;
+}
